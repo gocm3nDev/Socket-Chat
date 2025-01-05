@@ -20,7 +20,7 @@ This project demonstrates a simple client-server application using socket progra
 Clone the repository:
 
 ```c
-git clone https://github.com/your-username/socket-programming.git
+git clone https://github.com/gocm3nDev/socket-programming.git
 ```
 
 Navigate to the project directory:
