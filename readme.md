@@ -20,7 +20,7 @@ This project demonstrates a simple client-server application using socket progra
 Clone the repository:
 
 ```c
-git clone https://github.com/gocm3nDev/socket-programming.git
+git clone https://github.com/gocm3nDev/Socket-Chat.git
 ```
 
 Navigate to the project directory:
@@ -59,17 +59,19 @@ When prompted, enter the server's IP address.
 
 Exchange messages between the client and server. Type exit to close the connection.
 
-Code Structure
+### Code Structure
+
 server.c: Contains the server-side implementation, including socket creation, binding, and message handling.
+
 client.c: Contains the client-side implementation, including connection to the server and message handling.
-Customization
+
+### Customization
 Update SERVER_PORT in the source files to change the default port.
+
 Modify message buffer sizes by changing the SERVER_TLENGTH definition.
-Contributing
+
+### Contributing
 Feel free to fork this repository and contribute enhancements or fixes. Pull requests are welcome!
 
-License
+### License
 This project is licensed under the MIT License.
-
-Contact
-For any questions or suggestions, please reach out to your-email@example.com.
