@@ -1,36 +1,54 @@
-Socket Programming Project
-Overview
+# Socket Programming Project
+
+## Overview
+
 This project demonstrates a simple client-server application using socket programming in C. The server listens for connections and exchanges messages with the client over TCP.
 
-Key features include:
+### Key features include:
 
-Customizable server IP address and port.
-Real-time message exchange.
-Graceful handling of connection errors.
-Requirements
-GCC Compiler (or any C compiler).
-Linux/Unix-based environment recommended for networking features.
-Basic understanding of socket programming.
-Installation
+- Customizable server IP address and port.
+- Real-time message exchange.
+- Graceful handling of connection errors.
+  
+### Requirements
+- GCC Compiler (or any C compiler).
+- Linux/Unix-based environment recommended for networking features.
+- Basic understanding of socket programming.
+  
+### Installation
+
 Clone the repository:
-bash
 
+```c
 git clone https://github.com/your-username/socket-programming.git
+```
+
 Navigate to the project directory:
-bash
 
+```c
 cd socket-programming
-Compile the client and server programs:
-bash
+```
 
+Compile the client and server programs:
+
+Server
+```c
 gcc -o server server.c
+```
+
+Client
+```c
 gcc -o client client.c
-Usage
+```
+
+### Usage
+
 Start the server:
 
-bash
-Kodu kopyala
+```c
 ./server
+```
+
 The server listens on the specified port (default: 4006).
 
 Run the client:
