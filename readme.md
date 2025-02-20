@@ -72,6 +72,3 @@ Modify message buffer sizes by changing the SERVER_TLENGTH definition.
 
 ### Contributing
 Feel free to fork this repository and contribute enhancements or fixes. Pull requests are welcome!
-
-### License
-This project is licensed under the MIT License.
